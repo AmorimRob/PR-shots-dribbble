@@ -1,0 +1,24 @@
+.menuContainer {
+  background-color: white;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  width: 150px;
+}
+
+.menuContainer:hover {
+  background-color: black;
+}
+
+.menuContainer:hover > p {
+  color: #fff;
+}
+
+.textoMenu {
+  color: black;
+  font-weight: 600;
+  font-size: 0.7em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
